@@ -1,0 +1,19 @@
+// Déclaration des variables
+const a = 42;
+const b = "Bonjour";
+const c = true;
+const d = null;
+let e; // Non initialisée
+const f = [1, 2, 3];
+const g = { nom: "Ali" };
+const h = NaN;
+
+// Affichages (Type et Valeur sur une seule ligne)
+console.log(a + " -> " +typeof a);
+console.log(b + " -> " +typeof b);
+console.log(c + " -> " +typeof c);
+console.log(d + " -> " +typeof d);
+console.log(e + " -> " +typeof e);
+console.log("[" + f + "]->" + typeof f);
+console.log(g + "->" +typeof g);
+console.log(h + "->" +typeof h);
